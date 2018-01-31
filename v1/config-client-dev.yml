@@ -1,1 +1,2 @@
-fun: Hello World
+server:
+    port: 8999
