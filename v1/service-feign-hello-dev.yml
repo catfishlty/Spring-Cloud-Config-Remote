@@ -1,0 +1,5 @@
+server:
+  port: 16711
+feign:
+  hystrix:
+    enabled: true

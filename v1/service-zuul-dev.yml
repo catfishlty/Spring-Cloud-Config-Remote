@@ -1,10 +1,10 @@
 server:
-  port: 8769
+  port: 16681
 zuul:
   routes:
-    api-a:
-      path: /api-a/**
-      serviceId: service-ribbon
-    api-b:
-      path: /api-b/**
-      serviceId: service-feign
+    hello-service:
+      path: /hello/**
+      serviceId: service-feign-hello
+    #rest-test-service:
+      #path: /rest/**
+      #serviceId: service-feign
