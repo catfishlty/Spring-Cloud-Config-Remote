@@ -1,6 +1,6 @@
 server:
-  # port: 16699
-  port: 16700
+  port: 16699
+  # port: 16700
 eureka:
   client:
     serviceUrl:
