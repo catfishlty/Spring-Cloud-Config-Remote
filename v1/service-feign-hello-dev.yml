@@ -1,5 +1,9 @@
 server:
   port: 16711
+eureka:
+  client:
+    healthcheck:
+      enabled: true
 feign:
   hystrix:
     enabled: true
