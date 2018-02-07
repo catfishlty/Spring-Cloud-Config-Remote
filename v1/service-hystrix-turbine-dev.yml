@@ -1,0 +1,11 @@
+server:
+  port: 16681
+eureka:
+  client:
+    healthcheck:
+      enabled: true 
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: service-hi
+  clusterNameExpression: new String("default")
