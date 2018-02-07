@@ -1,5 +1,9 @@
 server:
   port: 16681
+eureka:
+  client:
+    healthcheck:
+      enabled: true 
 zuul:
   routes:
     hello-service:
