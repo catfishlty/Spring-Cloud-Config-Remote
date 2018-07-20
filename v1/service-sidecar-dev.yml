@@ -1,6 +1,6 @@
 sidecar:
     port: 8080
-    home-page-uri: http://localhost:${sidecar.port}/
-    health-uri: http://127.0.0.1:8080/status.json
+    home-page-uri: http://nodejs:${sidecar.port}/
+    health-uri: http://nodejs:8080/status.json
 server:
     port: 8081
